@@ -54,16 +54,5 @@ public class DatastoreWrite extends HttpServlet {
 
         datastore.put(entity);
 
-        /**
-        pw.println("Writing entity to datastore.");
-
-
-        DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
-        Entity book = new Entity("book");
-        book.setProperty("title", "The grapes of wrath");
-        book.setProperty("author", "John Steinbeck");
-        datastore.put(book);
-
-         */
     }
 }
